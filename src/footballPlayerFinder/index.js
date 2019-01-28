@@ -55,7 +55,7 @@ class FootballPlayerFinder extends Component {
 		const isEnabled = name.length > 0 && age >= 18 && age <= 45;
 		return (
 			<div className="FootballPlayerFinder">
-				<h3>Football Player Finder</h3>
+				<h2 className="App-title">Football Player Finder</h2>
 				<SearchBar
 					name={name}
 					age={age}
@@ -91,4 +91,3 @@ export default connect(
 	mapStateToProps,
 	mapDispatchToProps
 )(FootballPlayerFinder);
-// export default FootballPlayerFinder;

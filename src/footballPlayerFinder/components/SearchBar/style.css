@@ -13,7 +13,9 @@
 
 input, select {
   height: 3.5rem;
-  border: .5px solid rgb(116, 116, 116);
+  border-width: 0 0 .1rem;
+  background-color: #eeeeee;
+  outline: 0
 }
 
 .name{
@@ -24,19 +26,15 @@ input, select {
 .position {
   flex: 0 0 15%;
   padding: .5rem
-
-
 }
 
 .age {
   flex: 0 0 5%;
   padding: .5rem
-
-
 }
 
 .search {
-  flex: 0 0 10%
+  /* flex: 0 0 10% */
 }
 
 button:disabled {

@@ -1,23 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Arimo', sans-serif;
 }
 
 html {
   font-size: 10px;
+  background-color: #acd6ea;
 }
 
 .App {
   font-size: 1.6rem;
   display: flex; 
   flex-direction: column;
-  height: 100vh; 
+  height: 96.5vh; 
   width: 70%;
   margin: 0 auto;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(255, 255, 255);
   box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
-  padding: 4rem
+  padding: 1rem 3rem;
+  border-radius: 2rem
+}
+
+.App-title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background-color: #ef3131;
+  text-align: center;
+  font-size: 2.6rem;
 }
 
 @media only screen and (max-width: 550px) {
