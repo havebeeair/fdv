@@ -1,0 +1,44 @@
+.search-params {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+@media only screen and (max-width: 750px) {
+  .search-params {
+    flex-direction: column;
+  }
+ 
+}
+
+input, select {
+  height: 3.5rem;
+  border: .5px solid rgb(116, 116, 116);
+}
+
+.name{
+  flex: 0 0 15%;
+  padding: .5rem
+}
+
+.position {
+  flex: 0 0 15%;
+  padding: .5rem
+
+
+}
+
+.age {
+  flex: 0 0 5%;
+  padding: .5rem
+
+
+}
+
+.search {
+  flex: 0 0 10%
+}
+
+button:disabled {
+  background-color: rgb(170, 170, 170)
+}
